@@ -32,7 +32,9 @@
   margin: 0 auto 0;
 }
 
-.task, .list-item__task-name, .list-item__task {
+.task,
+.list-item__task-name,
+.list-item__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -51,7 +53,8 @@ li {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -80,7 +83,8 @@ input,button{
   text-transform: uppercase;
 }
 
-.task, .list-item__task {
+.task,
+.list-item__task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
